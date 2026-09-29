@@ -14,6 +14,8 @@ cp -avf "/ctx/system_files"/. /
 
 # this installs a package from fedora repos
 dnf5 install -y tmux
+chmod -x ./emacs.sh
+./emacs.sh
 
 # Use a COPR Example:
 #
